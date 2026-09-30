@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Сәлем! Мен [9- Топ]</h1>
+        <h1>Сәлем! Мен [Ардана]</h1>
         <p>Бастаушы Веб-девелопер</p>
     </header>
 
@@ -17,15 +17,30 @@
         <p>Мен веб-бағдарламалауды үйреніп жүрмін. VS Code және GitHub сияқты құралдарды меңгерудемін.</p>
     </section>
 
-    <section id="skills">
-        <h2>Дағдыларым</h2>
-        <ul>
-            <li>HTML & CSS</li>
-            <li>Git & GitHub</li>
-            <li>JavaScript (негіздері)</li>
-        </ul>
-    </section>
+    <<section id="contact">
+    <h2>Менімен байланысу</h2>
+    <p>Сұрақтарыңыз немесе ұсыныстарыңыз болса, хабарлама қалдырыңыз:</p>
+    
+    <!-- action=" " ішіне өзіңіздің Formspree сілтемеңізді қойыңыз -->
+    <form action="https://formspree.io/f/xzyqqwer" method="POST" class="contact-form">
+        <div class="form-group">
+            <label for="name">Атыңыз:</label>
+            <input type="text" id="name" name="name" required placeholder="Мысалы: Арман">
+        </div>
 
+        <div class="form-group">
+            <label for="email">Электронды поштаңыз:</label>
+            <input type="email" id="email" name="email" required placeholder="name@example.com">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Хабарламаңыз:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Сіздің хабарламаңыз..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Жіберу</button>
+    </form>
+</section>
     <footer>
         <p>© 2026 Барлық құқықтар қорғалған.</p>
     </footer>

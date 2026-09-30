@@ -32,4 +32,53 @@ li {
     margin: 5px 0;
     padding: 8px;
     border-radius: 4px;
+}/* Байланыс формасының стильдері */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+    color: #444;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #24292e;
+    box-shadow: 0 0 5px rgba(36, 41, 46, 0.2);
+}
+
+.submit-btn {
+    background-color: #24292e;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0366d6;
 }
